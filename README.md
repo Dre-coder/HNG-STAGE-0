@@ -33,6 +33,11 @@ To run this project locally, follow the following steps:
 ### Endpoint URL
 - `GET /`
 
+```sh
+  hng-stage-0-production-8518.up.railway.app
+
+```
+
 
 ### Request/Response Format
 
