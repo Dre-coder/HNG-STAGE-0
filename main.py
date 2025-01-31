@@ -17,7 +17,7 @@ app.add_middleware(
 
 
 
-@app.get("/")
+@app.get("/",status_code=status.HTTP_200_OK)
 def user_info():
     date_time = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     return{
